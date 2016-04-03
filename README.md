@@ -6,10 +6,10 @@ estandares marcados oficialmente
 * HTML5
 * SQL
 * PHP
-* BOOTSTRAP
+* [Bootstrap]
 * CSS
 * JS
 
 [FLISol]: <http://www.flisol.info/>
  [FES Acatlán]: <http://www.acatlan.unam.mx/>
-[Bootstrap]: <http://getbootstrap.com/> 
+[Bootstrap]: <http://getbootstrap.com/>
