@@ -1,9 +1,9 @@
-body{
-    background:#219439;
-    font-family: 'Comfortaa', cursive;
+body {
+    background: #219439;
+    font-family: 'Comfortaa',cursive;
     font-size: 15px;
 }
-#inicio{
+#inicio {
     background: white;
     background: url(../img/background.jpg);
     background-position: center;
@@ -11,12 +11,10 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
-
-.logo{
+.logo {
     margin-top: 60px;
     text-align: center;
 }
-
 .navbar {
     min-height: 60px;
     margin-bottom: 20px;
@@ -24,75 +22,77 @@ body{
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.65);
     background: #ffffff;
 }
-div.navbar-header{
+div.navbar-header {
     80px;
 }
-.aire{
+.aire {
     margin-top: 4%;
 }
-
-.aire2{
+.aire2 {
     margin-top: 8%;
 }
-.titulo{
+.titulo {
     text-align: center;
     padding: 2%;
 }
-
-.backwhite{
- background: white;
+.backwhite {
+    background: white;
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.45);
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     padding: 2%;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.27);
 }
-.backgreen{
- background:#219439 ;
+.backgreen {
+    background: rgba(33, 148, 57, 0.8);
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.45);
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-right: 100px;
+    border-bottom: 30px;
     padding: 2%;
     color: white;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.27);
 }
-
-.queso h1,h2 small,h2, p{
+.container-fluid{
+    background-image: url(../img/fondoTeam2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.queso h1, h2 small, h2, p {
     color: white;
 }
-
-.circle{
+.circle {
     text-align: center;
+    font-weight: bold;
     background: orange;
-    border-radius: 50%;
-    padding: 25%;
+    border-radius: 70%;
+    padding: 20%;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.45);
 }
-
-aside .row{
+/*aside .row {
     text-align: center;
     padding: 2%;
 }
-
-aside .row h4{
+aside .row h4 {
     background: #cccccc;
 }
 aside .row {
     background: #f4f4f4;
-}
-
-aside .row a{
+}*/
+aside .row a {
     color: orange;
 }
-aside .row .link{
-    color: dimgray;
-    text-decoration:none;
+aside .row .link {
+    color: orange;
+    text-decoration: none;
 }
-
-aside .row .link:hover{
+aside .row .link:hover {
     color: #3c3c3c;
-    text-decoration:none;
+    text-decoration: none;
 }
-
-.pad{
+.pad {
     padding: 3%;
+    border-left: 1px solid white;
+}
+.page-header{
+  color:white;
 }
