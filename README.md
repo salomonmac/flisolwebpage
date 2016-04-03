@@ -1,5 +1,5 @@
 # Pagina Web para el FLISoL Acatlán
-Template sencillo para distribuir la información necesaria en el [FLISol] de la [FES Acatlán]: bajo los
+Template sencillo para distribuir la información necesaria en el [FLISol] de la [FES Acatlán] bajo los
 estandares marcados oficialmente
 
 # Tecnologias
