@@ -3,9 +3,9 @@ Template sencillo para distribuir la información necesaria en el FLISol de la F
 estandares marcados oficialmente
 
 # Tecnologias
-HTML5
-SQL
-PHP
-BOOTSTRAP
-CSS
-JS
+- HTML5
+- SQL
+- PHP
+- BOOTSTRAP
+- CSS
+- JS
