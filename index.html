@@ -52,7 +52,7 @@
                         </li>
                         <li><a href="stage.html">Descargas</a>
                         </li>
-                        <li><a href="ubicacion.html">Registro</a>
+                        <li><a href="#myModal2" data-toggle="modal" data-target="#myModal2">Registro</a>
                         </li>
                     </ul>
                 </div>
@@ -149,46 +149,6 @@
                 </h2>
                 </div>
             </div>
-            <!--<div class="row">
-                <div class="col-md-2 col-sm-2 col-xs-3">
-                    <h2 class="circle">0</h1>
-                    </div>
-                    <div class="col-md-10 col-sm-10 aire">
-                        <h2>USAR<br>
-                            <small>El programa con cualquier proposito</small>
-                        </h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-2 col-sm-2 col-xs-3">
-                    <h2 class="circle">1</h2>
-                </div>
-                <div class="col-md-10 col-sm-10 aire">
-                    <h2>ESTUDIAR <br>
-                        <small>Como funciona, modificarlo y adaptarlo a tus necesidades</small>
-                        </h2>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-2 col-sm-2 col-xs-3">
-                    <h2 class="circle">2</h2>
-                </div>
-                <div class="col-md-10 col-sm-10 aire">
-                    <h2>DISTRIBUIR <br>
-                        <small>Copias del programa</small></h2>
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-2 col-sm-2 col-xs-3">
-                    <h2 class="circle">3</h2>
-                </div>
-                <div class="col-md-10 col-sm-10 aire">
-                    <h2>MEJORAR <br>
-                        <small>El programa y publicar las mejoras</small></h2>
-                </div>
-            </div>-->
         </div>
 
         </div>
@@ -228,6 +188,48 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel2">Registrate</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div class="alert alert-success alert-dismissible" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <strong>Exitoso!</strong>
+                    </div>
+
+                    <center>
+                        <h1>Bienvenido</h1>
+
+                        <form class="row" action="" method="POST">
+                            <label for="">Nombre:</label>
+                            <input type="text" class="form-control">
+                            <label for="">Apellido:</label>
+                            <input type="text" class="form-control">
+                            <label for="">Correo:</label>
+                            <input type="text" class="form-control">
+                            <label for="">Semestre:</label>
+                            <input type="text" class="form-control">
+                            
+                            <br>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <button class="btn btn-default btn-lg">Registrate</button>
+                                </div>
+                            </div>
+                        </form>
+                    </center>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
