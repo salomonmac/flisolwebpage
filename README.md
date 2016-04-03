@@ -12,4 +12,4 @@ estandares marcados oficialmente
 
 [FLISol]: <http://www.flisol.info/>
  [FES Acatlán]: <http://www.acatlan.unam.mx/>
-[Bootstrap]: <http://getbootstrap.com/>
+[Bootstrap]: <http://getbootstrap.com/> 
