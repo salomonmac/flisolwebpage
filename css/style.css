@@ -10,12 +10,14 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+      box-shadow: 1px 1px 20px black;
 }
 .logo {
     margin-top: 60px;
     text-align: center;
 }
 .navbar {
+  text-transform: uppercase;
     min-height: 60px;
     margin-bottom: 20px;
     border: 1px solid transparent;
@@ -57,16 +59,48 @@ div.navbar-header {
     background-position: center;
     background-repeat: no-repeat;
 }
-.queso h1, h2 small, h2, p {
+.queso h2 small, h2, p {
     color: white;
 }
+
+.title{
+  margin-bottom: 30px;
+  padding: 10px 10px;
+  margin-left: -30px;
+  position: relative;
+  box-shadow: 3px 3px  30px #353839;
+  background-color: white;
+  transition: all 3s ease;
+}
+
+.forma-left{
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border-left: 20px solid transparent;
+    border-top: 10px solid rgb(210, 206, 201);
+    position: absolute;
+    top:100%;
+    left:0px;
+}
+.forma-right{
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border-right: 20px solid transparent;
+    border-top: 10px solid rgb(210, 206, 201);
+    position: absolute;
+    top:100%;
+    right:0px;
+}
 .circle {
+  color: orange;
+  text-shadow: 3px 3px 10px #353839;
     text-align: center;
     font-weight: bold;
-    background: orange;
-    border-radius: 70%;
-    padding: 20%;
-    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.45);
+    padding: 35%;
+    border: 1px solid #353839;
+    border-radius: 50%;
 }
 /*aside .row {
     text-align: center;
@@ -82,26 +116,32 @@ aside .row a {
     color: orange;
 }
 aside .row .link {
-    color: white;
+    color:#353839;
+    font-size: 20px;
     text-decoration: none;
 }
 aside .row .link:hover {
-    color: #5d5d5d;
+    color: #353839;
     text-decoration: none;
-    transition-duration: .2s;
 }
 .pad {
     padding: 3%;
     border-left: 1px solid white;
 }
-.pad h4{
-    color: #262626;
-}
-
-.pad h5{
-    color: white;
-}
-
 .page-header{
   color:white;
+}
+footer{
+  background-color: #353839;
+  padding: 2em;
+  color: white;
+}
+
+.thum{
+  border-right: 1px solid #353839;
+  text-align: center;
+}
+
+.thum1{
+  text-align: center;
 }
