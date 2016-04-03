@@ -82,17 +82,26 @@ aside .row a {
     color: orange;
 }
 aside .row .link {
-    color: orange;
+    color: white;
     text-decoration: none;
 }
 aside .row .link:hover {
-    color: #3c3c3c;
+    color: #5d5d5d;
     text-decoration: none;
+    transition-duration: .2s;
 }
 .pad {
     padding: 3%;
     border-left: 1px solid white;
 }
+.pad h4{
+    color: #262626;
+}
+
+.pad h5{
+    color: white;
+}
+
 .page-header{
   color:white;
 }
