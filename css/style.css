@@ -1,3 +1,11 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+
 body {
     background: #219439;
     font-family: 'Comfortaa',cursive;
@@ -66,7 +74,7 @@ div.navbar-header {
 .title{
   margin-bottom: 30px;
   padding: 10px 10px;
-  margin-left: -30px;
+  /*margin-left: -30px;*/
   position: relative;
   box-shadow: 3px 3px  30px #353839;
   background-color: white;
@@ -145,3 +153,14 @@ footer{
 .thum1{
   text-align: center;
 }
+
+.icon{
+    font-size: 80px;
+}
+
+.back{
+    background: white;
+    background-attachment: fixed;
+    background-image: url(../img/background.jpg)
+}
+
