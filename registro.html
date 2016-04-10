@@ -61,22 +61,22 @@
 
     <section class="container-fluid back aire" style="padding: 2em;">
       <div class="col-md-3">
-        <form role="form" data-toggle="validator" action="" method="POST">
+        <form role="form" data-toggle="validator" action="validar2.php" method="POST">
           <div class="form-group">
             <label for="">Nombre:</label>
-            <input id="nombre" type="text" class="form-control" placeholder="Ej. Marco" required>
+            <input id="nombre" name="nombre" type="text" class="form-control" placeholder="Ej. Marco" required>
           </div>
           <div class="form-group">
             <label for="">Apellido:</label>
-            <input id="apellido" type="text" class="form-control" placeholder="Ej. Polo" required>
+            <input id="apellido" name="apellido" type="text" class="form-control" placeholder="Ej. Polo" required>
           </div>
           <div class="form-group">
             <label for="">email:</label>
-            <input id="email" type="email" class="form-control" placeholder="Ej. ejemplo@mail.com" required>
+            <input id="email" name="email" type="email" class="form-control" placeholder="Ej. ejemplo@mail.com" required>
           </div>
           <div class="form-group">
-           <label for="">Taller / Ponencia:</label>
-           <textarea id="taller" name="name" rows="5" cols="40" class="form-control" readonly>
+           <label for="" style="display:none;">Taller / Ponencia:</label>
+           <textarea style="display:none;" id="taller" name="taller" rows="5" cols="40" class="form-control" readonly>
            </textarea>
           </div>
           <div class="form-group">
@@ -294,8 +294,8 @@
               $('.wordpress').removeClass('color').attr('data-check','');
               taller[1] = '';
               } else{
-                $('.wordpress').addClass('color').first().attr('data-check','wordpress');
-                taller[1] = 'wordpress';
+                $('.wordpress').addClass('color').first().attr('data-check','1');
+                taller[1] = '1';
               }
               valor();
             });
@@ -305,8 +305,8 @@
               $('.polymer').removeClass('color').attr('data-check','');
               taller[2] = '';
               } else{
-                $('.polymer').addClass('color').first().attr('data-check','polymer');
-                taller[2] = 'polymer';
+                $('.polymer').addClass('color').first().attr('data-check','5');
+                taller[2] = '5';
               }
               valor();
             });
@@ -316,8 +316,8 @@
               $('.cordova').removeClass('color').attr('data-check','');
               taller[3] = '';
               } else{
-                $('.cordova').addClass('color').first().attr('data-check','cordova');
-                taller[3] = 'cordova';
+                $('.cordova').addClass('color').first().attr('data-check','4');
+                taller[3] = '4';
               }
               valor();
             });
