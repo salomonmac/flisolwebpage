@@ -21,9 +21,13 @@ body {
       box-shadow: 1px 1px 20px black;
 }
 .logo {
-    margin-top: 60px;
+    margin-top: 40px;
     text-align: center;
 }
+.mouse{
+margin-top: 0px;    
+}
+
 .navbar {
   text-transform: uppercase;
     min-height: 60px;
@@ -43,7 +47,9 @@ div.navbar-header {
 }
 .titulo {
     text-align: center;
-    padding: 2%;
+    padding: 9%;
+    padding-left: 0;
+    
 }
 .backwhite {
     background: white;
@@ -163,6 +169,7 @@ footer{
     background-attachment: fixed;
     background-image: url(../img/background.jpg)
 }
+<<<<<<< HEAD
 table th{
   text-align: center;
 }
@@ -185,4 +192,13 @@ border: none;
   width: 100%;
   height: 100%;
   transition: all 200ms ease-out;
+=======
+
+.back2{
+    background: white;
+    background-attachment: fixed;
+    background-image: url(../img/background2.jpg);
+    background-size: cover;
+    height: 300px;
+>>>>>>> 99bf31fbb82aa3d15fb519fb038cea54571eda21
 }

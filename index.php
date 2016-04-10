@@ -261,7 +261,7 @@
                     <h1 class="backgreen">Codigo Libre</h1>
                 </div>
                 <div class="col-md-2">
-                    <h1>+</.h1>
+                    <h1>+</h1>
                 </div>
                 <div class="col-md-5">
                     <h1 class="backgreen">Comunidad colaborativa</h1>
@@ -525,6 +525,7 @@
                                 <option value="3">R no estadistico</option>
                                 <option value="4">Aplicaciones Moviles con Cordova</option>
                                 <option value="5">Polymer y material design</option>
+                                <option value="6">Conociendo y manipulando los metadatos</option>
                             </select>
                             <br>
                             <div class="row">
