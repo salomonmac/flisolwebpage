@@ -525,6 +525,7 @@
                                 <option value="3">R no estadistico</option>
                                 <option value="4">Aplicaciones Moviles con Cordova</option>
                                 <option value="5">Polymer y material design</option>
+                                <option value="6">Conociendo y manipulando los metadatos</option>
                             </select>
                             <br>
                             <div class="row">
