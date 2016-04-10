@@ -2,14 +2,14 @@
 
 $db_host = "localhost";
 $db_usr = "root";
-$db_pass = "********";
+$db_pass = "";
 $db_name = "flisol";
 
 
 $conectar = mysqli_connect($db_host, $db_usr, $db_pass, $db_name);
 
 if(!$conectar){
-    
-	die('Error al conectarse a MySql:'.mysql_error()); 
+
+	die('Error al conectarse a MySql:'.mysql_error());
 }
 ?>

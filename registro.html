@@ -333,12 +333,12 @@
                   console.debug('----------');
                   array.push($(this).attr('data-check'));
                   for(i=0; i< array.length; i++){
-                      $('textarea').html('')
+                      $('#taller').html('')
                     console.debug('arreglo: '+ array[i]);
                   }
                 }
                 else{
-                  $('textarea').html('');
+                  $('#taller').html('');
                 }
               });
 
@@ -350,13 +350,14 @@
                   nom.push($(this).find('h5').text());
                   for(i=0; i< nom.length; i++){
                       $('#tp').html('')
-                    console.debug('arreglo: '+ nombre[i]);
+                    console.debug('arreglo: '+ nom[i]);
                   }
                 }
                 else{
                   $('#tp').html('');
                 }
               });
+              $( '#taller' ).append(array.join(" , "));
                 $( "#tp" ).append(nom.join(" , "));
             }
 
