@@ -2,7 +2,7 @@
 
 $db_host = "localhost";
 $db_usr = "root";
-$db_pass = "#MUld3r3x";
+$db_pass = "********";
 $db_name = "flisol";
 
 
