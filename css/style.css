@@ -163,4 +163,26 @@ footer{
     background-attachment: fixed;
     background-image: url(../img/background.jpg)
 }
-
+table th{
+  text-align: center;
+}
+.all-button{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0  );
+border: none;
+}
+.all-button:hover{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(40, 182, 44, 0.3);
+  border: none;
+  transition: all 200ms ease-out;
+}
+.color{
+  background-color: rgba(40, 182, 44, 0.6);
+  border: none;
+  width: 100%;
+  height: 100%;
+  transition: all 200ms ease-out;
+}

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>FLISoL Acatlán 2016</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
+    <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
+    <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu1" aria-expanded="false">
+                        <span class="sr-only">Navegación</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.php"><img src="img/logo2.png" alt="" class="img img-responsive"></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="menu1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.php">Inicio</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Actividades <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Talleres</a>
+                                </li>
+                                <li><a href="http://faustocesar.esy.es/">Ponencias</a>
+                                </li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="https://www.facebook.com/thewigginsmx?fref=ts">InstallFEST</a>
+                                </li>
+                                <li><a href="https://www.facebook.com/pages/CIDWA/695261777263186?fref=ts">Hackathon</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="stage.html">Descargas</a>
+                        </li>
+                        <li><a href="#myModal2" data-toggle="modal" data-target="#myModal2">Registro</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+
+    <section class="container-fluid back aire" style="padding: 2em;">
+      <div class="col-md-3">
+        <form role="form" data-toggle="validator" action="" method="POST">
+          <div class="form-group">
+            <label for="">Nombre:</label>
+            <input id="nombre" type="text" class="form-control" placeholder="Ej. Marco" required>
+          </div>
+          <div class="form-group">
+            <label for="">Apellido:</label>
+            <input id="apellido" type="text" class="form-control" placeholder="Ej. Polo" required>
+          </div>
+          <div class="form-group">
+            <label for="">email:</label>
+            <input id="email" type="email" class="form-control" placeholder="Ej. ejemplo@mail.com" required>
+          </div>
+          <div class="form-group">
+           <label for="">Taller / Ponencia:</label>
+           <textarea id="taller" name="name" rows="5" cols="40" class="form-control" readonly>
+           </textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-default col-md-12" >Registrate</button>
+          </div>
+          </div>
+        </form>
+      </div>
+        <div class="col-sm-12 col-md-9">
+            <div class="col-md-12">
+                <div class="panel panel-warning">
+                    <div class="panel-heading">
+                        <h1 class="panel-title">Registrate a las Actividades  - FLISoL Acatlán </h1>
+                    </div>
+                    <div class="panel-body">
+                        <table class="table table-striped table-hover ">
+                            <thead>
+                                <tr>
+                                    <th>Horario</th>
+                                    <th>Lunes</th>
+                                    <th>Martes</th>
+                                    <th>Miercoles</th>
+                                    <th>Jueves</th>
+                                    <th>Viernes</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>10:00 - 11:00</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                      <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Julio C. Rodriguez</b>" data-placement="top" data-content="Conferencia sobre el trabajo que estan desarrollando en la comunidad de NodeBots México.">
+                                      <button type="button" name="button" class="all-button nodebots" data-check="">
+                                        <h5>NodeBotsMX</h5>
+                                          <p style="color: black">
+                                            <small>Ponencia</small>
+                                          </p>
+                                      </button>
+                                      </a></small>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>11:00 - 13:00</td>
+                                    <td>
+                                      <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Julio C. Rodriguez</b>" data-placement="top" data-content="Conferencia sobre el trabajo que estan desarrollando en la comunidad de NodeBots México.">
+                                      <button type="button" name="button" class="all-button wordpress" data-check="">
+                                        <h5>Plantilla de wordpress desde 0</h5>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                          </p>
+                                      </button>
+                                      </a></small>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                      <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Julio C. Rodriguez</b>" data-placement="top" data-content="Conferencia sobre el trabajo que estan desarrollando en la comunidad de NodeBots México.">
+                                      <button type="button" name="button" class="all-button wordpress" data-check="">
+                                        <h5>Plantilla de wordpress desde 0</h5>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                          </p>
+                                      </button>
+                                      </a></small>
+                                    </td>
+                                    <td></td>
+
+                                    <td>
+                                      <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Julio C. Rodriguez</b>" data-placement="top" data-content="Conferencia sobre el trabajo que estan desarrollando en la comunidad de NodeBots México.">
+                                      <button type="button" name="button" class="all-button wordpress" data-check="">
+                                        <h5>Plantilla de wordpress desde 0</h5>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                          </p>
+                                      </button>
+                                      </a></small>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>12:00 - 13:00</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>13:00 - 14:00</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                      <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Julio C. Rodriguez</b>" data-placement="top" data-content="Conferencia sobre el trabajo que estan desarrollando en la comunidad de NodeBots México.">
+                                      <button type="button" name="button" class="all-button cordova" data-check="">
+                                        <h5>Aplicaciones moviles con Cordova</h5>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                          </p>
+                                      </button>
+                                      </a></small>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                      <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Julio C. Rodriguez</b>" data-placement="top" data-content="Conferencia sobre el trabajo que estan desarrollando en la comunidad de NodeBots México.">
+                                      <button type="button" name="button" class="all-button polymer" data-check="">
+                                        <h5>Introducción a Polymer con material Design</h5>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                          </p>
+                                      </button>
+                                      </a></small>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>14:00 - 15:00</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                      <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Julio C. Rodriguez</b>" data-placement="top" data-content="Conferencia sobre el trabajo que estan desarrollando en la comunidad de NodeBots México.">
+                                      <button type="button" name="button" class="all-button cordova" data-check="">
+                                          <h5>Aplicaciones moviles con Cordova</h5>
+                                            <p style="color: black">
+                                              <small>Taller</small>
+                                            </p>
+                                      </button>
+                                      </a></small>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                      <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Julio C. Rodriguez</b>" data-placement="top" data-content="Conferencia sobre el trabajo que estan desarrollando en la comunidad de NodeBots México.">
+                                      <button type="button" name="button" class="all-button polymer" data-check="">
+                                        <h5>Introducción a Polymer con material Design</h5>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                          </p>
+                                      </button>
+                                      </a></small>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>15:00 - 16:00</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="row">
+                          <p id="demo"></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid">
+        <div class="row">
+            <section class="col-md-4">
+                <ul>
+                    <li>Inicio</li>
+                    <li>Contacto</li>
+                    <li>Descargas</li>
+                    <li>Contacto</li>
+                </ul>
+            </section>
+            <section class="col-md-4">
+                <ul>
+                    <li>Inicio</li>
+                    <li>Contacto</li>
+                    <li>Descargas</li>
+                    <li>Contacto</li>
+                </ul>
+            </section>
+            <section class="col-md-4">
+                <ul>
+                    <li>Inicio</li>
+                    <li>Contacto</li>
+                    <li>Descargas</li>
+                    <li>Contacto</li>
+                </ul>
+            </section>
+        </div>
+        <div class="row">
+            <center><small>Copyright &copy | club de investigacion y desarrollo web acatlán</small></center>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+          var taller = new Array();
+            $('[data-toggle="popover"]').popover();
+
+            $('table').on('click', '.nodebots', function(event){
+              if ( $('.nodebots').hasClass( 'color' ) ) {
+                taller[0] = '';
+              $('.nodebots').removeClass('color').attr('data-check','');
+              } else{
+                $('.nodebots').addClass('color').attr('data-check','nodebots');
+                taller[0] = 'nodebots';
+              }
+              valor();
+            });
+            $('table').on('click', '.wordpress', function(event){
+              if ( $('.wordpress').hasClass( 'color' ) ) {
+              $('.wordpress').removeClass('color').attr('data-check','');
+              taller[1] = '';
+              } else{
+                $('.wordpress').addClass('color').first().attr('data-check','wordpress');
+                taller[1] = 'wordpress';
+              }
+              valor();
+            });
+
+            $('table').on('click', '.polymer', function(event){
+              if ( $('.polymer').hasClass( 'color' ) ) {
+              $('.polymer').removeClass('color').attr('data-check','');
+              taller[2] = '';
+              } else{
+                $('.polymer').addClass('color').first().attr('data-check','polymer');
+                taller[2] = 'polymer';
+              }
+              valor();
+            });
+
+            $('table').on('click', '.cordova', function(event){
+              if ( $('.cordova').hasClass( 'color' ) ) {
+              $('.cordova').removeClass('color').attr('data-check','');
+              taller[3] = '';
+              } else{
+                $('.cordova').addClass('color').first().attr('data-check','cordova');
+                taller[3] = 'cordova';
+              }
+              valor();
+            });
+            var valor = function(){
+              array = [];
+              $('table').find('.all-button').each(function(index){
+                if( ($(this).attr('data-check')) != ''){
+                  console.debug('----------');
+                  array.push($(this).attr('data-check'));
+                  for(i=0; i< array.length; i++){
+                      $('textarea').html('')
+                    console.debug('arreglo: '+ array[i]);
+                  }
+                }
+                else{
+                  $('textarea').html('');
+                }
+              });
+                $( "#taller" ).append(array.join(" , "));
+            }
+
+          $('#flisol-reg').validator()
+
+        });
+    </script>
+</body>
+</html>
