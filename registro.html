@@ -281,26 +281,21 @@
     <script type="text/javascript">
         $(document).ready(function () {
 
-          var taller = new Array();
             $('[data-toggle="popover"]').popover();
 
             $('table').on('click', '.nodebots', function(event){
               if ( $('.nodebots').hasClass( 'color' ) ) {
-                taller[0] = '';
               $('.nodebots').removeClass('color').attr('data-check','');
               } else{
                 $('.nodebots').addClass('color').attr('data-check','nodebots');
-                taller[0] = 'nodebots';
               }
               valor();
             });
             $('table').on('click', '.wordpress', function(event){
               if ( $('.wordpress').hasClass( 'color' ) ) {
               $('.wordpress').removeClass('color').attr('data-check','');
-              taller[1] = '';
               } else{
                 $('.wordpress').addClass('color').first().attr('data-check','1');
-                taller[1] = '1';
               }
               valor();
             });
@@ -308,10 +303,8 @@
             $('table').on('click', '.polymer', function(event){
               if ( $('.polymer').hasClass( 'color' ) ) {
               $('.polymer').removeClass('color').attr('data-check','');
-              taller[2] = '';
               } else{
                 $('.polymer').addClass('color').first().attr('data-check','5');
-                taller[2] = '5';
               }
               valor();
             });
@@ -319,15 +312,14 @@
             $('table').on('click', '.cordova', function(event){
               if ( $('.cordova').hasClass( 'color' ) ) {
               $('.cordova').removeClass('color').attr('data-check','');
-              taller[3] = '';
               } else{
                 $('.cordova').addClass('color').first().attr('data-check','4');
-                taller[3] = '4';
               }
               valor();
             });
             var valor = function(){
               array = [];
+              nom = [];
               $('table').find('.all-button').each(function(index){
                 if( ($(this).attr('data-check')) != ''){
                   console.debug('----------');
@@ -342,8 +334,6 @@
                 }
               });
 
-
-              nom = [];
               $('table').find('.all-button').each(function(index){
                 if( ($(this).attr('data-check')) != ''){
                   console.debug('----------');
