@@ -201,3 +201,16 @@ border: none;
     height: 300px;
 
 }
+
+.salomon p{
+    color: black;
+}
+salomon img{
+    width: 80%;
+    height: 80%;
+}
+
+
+.salomon .thumbnail {
+    border: 1px solid #219439;
+}
