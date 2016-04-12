@@ -169,7 +169,7 @@ footer{
     background-attachment: fixed;
     background-image: url(../img/background.jpg)
 }
-<<<<<<< HEAD
+
 table th{
   text-align: center;
 }
@@ -192,13 +192,12 @@ border: none;
   width: 100%;
   height: 100%;
   transition: all 200ms ease-out;
-=======
-
-.back2{
+}
+.back{
     background: white;
     background-attachment: fixed;
     background-image: url(../img/background2.jpg);
     background-size: cover;
     height: 300px;
->>>>>>> 99bf31fbb82aa3d15fb519fb038cea54571eda21
+
 }
